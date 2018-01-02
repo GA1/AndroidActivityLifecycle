@@ -10,6 +10,7 @@
         android:theme="@style/AppTheme">
 
 
+        <activity android:name="com.ga1.androidactivitylifecycle.AnotherActivity"/>
         <activity android:name="com.ga1.androidactivitylifecycle.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

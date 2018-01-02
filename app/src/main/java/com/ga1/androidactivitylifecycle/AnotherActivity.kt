@@ -7,13 +7,13 @@ import android.util.Log
 import android.view.View
 
 
-class MainActivity : Activity() {
+class AnotherActivity : Activity() {
 
-    private val tag = "MainActivity"
+    private val tag = "AnotherActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.article_main)
+        setContentView(R.layout.article_another)
         Log.e(tag, "onCreate Call")
     }
 
@@ -42,11 +42,6 @@ class MainActivity : Activity() {
         Log.e(tag, "onDestroy Call")
     }
 
-    fun goToNextActivity(v: View) {
-        val newIntent = Intent(this, AnotherActivity::class.java)
-        startActivity(newIntent)
-        finish()
-    }
 
 
 }
