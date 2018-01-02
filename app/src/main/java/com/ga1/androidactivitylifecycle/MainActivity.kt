@@ -45,6 +45,11 @@ class MainActivity : Activity() {
     fun goToNextActivity(v: View) {
         val newIntent = Intent(this, AnotherActivity::class.java)
         startActivity(newIntent)
+    }
+
+    fun goToNextActivityAndFinishCurrentOne(v: View) {
+        val newIntent = Intent(this, AnotherActivity::class.java)
+        startActivity(newIntent)
         finish()
     }
 

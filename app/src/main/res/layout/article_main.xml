@@ -10,16 +10,29 @@
         android:textColor="@color/colorPrimaryDark"
         android:text="Main Activity"
         android:padding="4dp"
+        android:layout_margin="4dp"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to the other activity"
+        android:text="Go to the other activity without finishing the current one"
         android:textColor="@color/colorPrimaryDark"
         android:padding="4dp"
+        android:layout_margin="4dp"
         android:onClick="goToNextActivity"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the other activity and finish the current one"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:onClick="goToNextActivityAndFinishCurrentOne"
+        />
+
 
 
 </LinearLayout>
