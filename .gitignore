@@ -1,0 +1,13 @@
+.idea/
+*DS_Store
+
+.gradle/
+build/
+
+local.properties
+
+*.iml
+*.pro
+app/build
+app/app-release.apk
+app/release
